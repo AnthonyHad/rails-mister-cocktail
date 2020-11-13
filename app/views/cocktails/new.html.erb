@@ -1,0 +1,9 @@
+<h1>Add Your Favorite Cocktail!</h1>
+
+<%= simple_form_for [@cocktail] do |f| %>
+  <%= f.input :name%>
+  <%= f.submit class: 'btn_add create_cocktail' %>
+<% end %>
+
+
+<!-- wrapper_html: {class: "input_cocktail"}, input_html: {class:"sdsd"} -->

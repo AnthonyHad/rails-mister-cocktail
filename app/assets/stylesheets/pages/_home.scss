@@ -1,1 +1,33 @@
 // Specific CSS for your home-page
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  margin-top: 15px;
+  color: #ffd23f;
+}
+
+body {
+  background-color: #131415;
+}
+
+.btn_add {
+  color: black;
+  background-color: #ffd23f;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  margin-left: 570px;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.btn_add:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.btn_add:active {
+  box-shadow: 0 5px #bc5d2e;
+  transform: translateY(3px);
+}
